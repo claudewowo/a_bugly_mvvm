@@ -16,4 +16,4 @@ npm run dev
 ```
 
 参考下图:
-[MVVM 系统导图](https://github.com/keydone/a_bugly_mvvm/blob/master/mvvm.jpg?raw=true)
+![MVVM 系统导图](https://github.com/keydone/a_bugly_mvvm/blob/master/mvvm.jpg?raw=true)
