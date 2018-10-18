@@ -7,6 +7,7 @@
 使用非常简洁的 webpack 配置系统, 可用于完整项目.
 with a clean webpack config system.
 
+开罐即食, 欢迎品尝:
 ```js
 // 安装依赖
 npm i
