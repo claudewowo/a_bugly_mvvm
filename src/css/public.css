@@ -1,0 +1,117 @@
+/*** reset ***/
+html, body, h1, h2, h3, h4, h5, h6, div, p, dl, dd, ul, li, ol, label, form, input, img, textarea, th, tr, td, button, select, span, a, em, i{
+	box-sizing:content-box;
+	margin: 0;
+	padding:0;
+}
+
+html{
+	min-height: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling : touch;
+	user-select: text;
+	position:relative;
+}
+body {
+	font:normal 14px/1.4 Arial,Helvetica,Sans-serif,San Francisco,Microsoft Yahei,SimHei;
+	background:#fff;
+	outline: none;
+	color: #333;
+}
+
+ul, li {list-style:none;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: normal;}
+
+em,i {font-style: normal;}
+
+button, label{cursor: pointer;}
+
+a{outline: none;
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover {text-decoration: underline;}
+
+
+a:focus {outline:none;}
+
+button::-moz-focus-inner {border:0;}
+
+table {border-collapse: collapse;}
+
+input[type="radio"], input[type="checkbox"] {
+	position: relative;
+	vertical-align: middle;
+	outline: none;
+}
+
+img,input,textarea,select,button {
+	font-family: Arial,Helvetica,Sans-serif,San Francisco,Microsoft Yahei,SimHei;
+	outline: none;
+	border: 0;
+}
+
+img {vertical-align: top;}
+
+input[type='text']{color: #333;}
+
+textarea {
+	resize: none;
+	overflow: auto;
+	background: none;
+	color: #333;
+}
+
+
+select{border:0;outline:none;}
+
+.pr{position:relative;}
+
+@keyframes spin {
+    100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.btn{
+    text-align:center;
+    display:inline-block;
+    color:#fff;
+    overflow:hidden;
+    background:#ff8a00;
+    text-decoration:none;
+    transition-duration:.2s;
+    cursor:pointer;
+    &:hover{background:#ef8100;}
+    &.cancel{background:#999;
+        &:hover{background:#8c8c8c;}
+    }
+    &.disable{background:#ccc;
+        cursor:not-allowed;
+    }
+}
+.inlineBlock{display: inline-block;}
+.block{display: block;}
+.inlinetop{
+    display: inline-block;
+    vertical-align:top;
+}
+.dirLtr{
+	direction: ltr;
+}
+.el0{
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	opacity: 0;
+}
+.clear{
+	clear: both;
+}
+.hide{
+	display: none !important;
+}

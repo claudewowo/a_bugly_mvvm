@@ -1,0 +1,35 @@
+#app{
+    width: 500px;
+    padding: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    h2{height: 50px;
+        line-height: 50px;
+    }
+    .tip{color: red;}
+}
+
+.formList_input{
+    position: relative;
+    background: none;
+    z-index:3;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.formList_field_group{
+    position: relative;
+}
+
+.fieldError{
+    color:#cc0000;
+    margin-top:-1px;
+    background: #fff;
+    overflow:hidden;
+    line-height: rem(50);
+    transition:max-height .3s, padding .3s;
+    &.hasError{z-index:1}
+}

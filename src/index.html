@@ -1,0 +1,20 @@
+<html id="html" class="isApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>a bugly mvvm</title>
+
+</head>
+<body id="body">
+    <div id="app">
+        <h2>{{title}}</h2>
+        <p style="margin-bottom: 5px; color: #ccc;">(本demo 支持 placeholder, v-show, v-html, v-model)</p>
+        <div class="form">
+            请输入: <input id="birthday" type="text" class="formList_input" v-placeholder="$birthday" v-model="birthday">
+            <span class="tip" v-show="tip">{{tip}}(打开console面板)</span>
+            <p>日期: <span v-html="birthday"></span></p>
+        </div>
+    </div>
+</body>
+
+</html>

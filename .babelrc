@@ -1,0 +1,22 @@
+{
+    "presets": [
+        ["env", {
+            "target": {
+                "browsers": ["last 2 versions", "ie >= 8"]
+            },
+            "modules": false,
+            "useBuildIns": true
+        }]
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "syntax-dynamic-import",
+        "transform-object-rest-spread",
+        "transform-decorators-legacy"
+//        "transform-async-to-generator",
+//        "transform-regenerator",
+//        ["transform-runtime", {
+//            "moduleName": "babel-runtime"
+//        }]
+    ]
+}
